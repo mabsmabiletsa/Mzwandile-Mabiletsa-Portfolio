@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mzwandile Mabiletsa - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mzwandile Mabiletsa</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">M.Mabiletsa</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile picture 1.png" alt="Mzwandile Mabiletsa profile">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Mzwandile Mabiletsa</h1>
+            <p class="section_text_p2">Software Developer</p>
+            <div class="btn_container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Mzwandile Mabiletsa CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn profile" class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/mzwandile-mabiletsa-702136242/'">
+                <img src="./assets/github.png" alt="GitHub profile" class="icon" 
+                    onclick="location.href='http://www.github.com/mabsmabiletsa'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">About Me</h2>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/profile picture 2.png" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Full-stack Development <br> Technical Services & Support</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Diploma Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Dynamic full-stack developer with expertise in C# and the .NET Framework. Intermediate in JavaScript
+                        and Node.js framework web development. Knowledgeable about working well in cross-functional
+                        teams and providing solid solutions. I'm dedicated to being up to date with market trends, and I'm
+                        prepared to use my abilities and problem-solving approach to a software development position,
+                        adding significant value to creative projects in a formal environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="title">Experience</h2>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Finance Coordinator</h3>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h4>Systems Development and Management</h4>
+                                <p>Designed and implemented critical web applications</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h4>Business Operations Leadership</h4>
+                                <p>Managed various operational processes, vehicle sales, and procurement planning</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h4>Team and Property Management</h4>
+                                <p>Supervised employee accommodations at company-owned properties</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h4>Technical Support and Consultation</h4>
+                                <p>Provided IT support services, including troubleshooting and vendor liaison</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="details-container">
+                <h3 class="experience-sub-title">Junior Sotware & Web Development </h3>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h4>Full-Stack Development</h4>
+                            <p>Built dynamic, responsive web applications using technologies like Node.js, Express, React.js, and MongoDB to meet diverse client and internal business needs.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h4>Database Design and Optimization</h4>
+                            <p>Created and maintained efficient database architectures, including relational and NoSQL solutions, to manage large datasets for internal systems like fines tracking and employee management.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h4>API Development and Integration</h4>
+                            <p>Designed RESTful APIs to connect front-end and back-end systems, enabling seamless integration with third-party platforms and enhancing system functionality.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <h4>Automation of Processes</h4>
+                            <p>Developed automated workflows for routine business tasks, including employee fine logging, inventory tracking, and reporting systems, to reduce manual workloads and improve efficiency.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Fines Management System</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://gubis85fines.netlify.app','_blank')">
+                            Visit Site
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Inventory Management</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('https://fleetinventory.netlify.app','_blank')">
+                            Visit Site
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                    </div>
+                    <h3 class="experience-sub-title project-title">Project Three</h3>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mabsmabiletsa'">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:mabsmabiletsa@gmail.com">mabsmabiletsa@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/mzwandile-mabiletsa-702136242/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Mzwandile Mabiletsa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
